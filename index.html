@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Fitriandhani</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav></nav>
+    <header>
+        <div id="header">
+            <h1>Mathty</h1>
+            <p>Math's Calculator</p>
+        </div>
+    </header>
+    <main>
+        <div id="container">
+            <h2>Hello friend, welcome to Mathty :]</h2>
+            <p>This is a Math learning website and You are in the calculation of flat shapes section</p>
+            <div id="formula">
+                <img src="/images/area-of-square-formula-side-times-side.webp" alt="formula square">
+                <h3>Formulas:</h3>
+                <p>Area = Side Length x Side Length</p>
+                <p>Perimeter = 4 x Side Length</p>
+            </div>
+            <h3>Let's try!</h3>
+            <label for="sideLength">Enter the length of one side:</label>
+            <input type="number" id="sideLength" placeholder="Enter side length" required>
+
+            <button onclick="calculate()">Calculate</button>
+            <button onclick="resetCalculator()">Reset</button>
+
+            <div id="result"></div>
+            <div id="square"></div>
+
+        </div>
+    </main>
+    <footer></footer>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
