@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4; /* Set a background color for the entire page */
+}
+
+#header {
+    background-color: #2196F3; /* Blue background color */
+    color: white; /* White text color */
+    padding: 0px;
+}
+
+#container {
+    height: 100000vh;
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white; /* White background color */
+}
+img {
+    max-width: 60%;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+#square {
+    /* Additional styling for the square */
+    margin-top: 20px;
+    border: 2px solid #4CAF50;
+    box-sizing: border-box;
+    
+}
